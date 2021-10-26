@@ -24,15 +24,13 @@ public class Driver {
 
 
         auction1.displayAllBuyers();
-        bid1.updateBid(B1, auction1, 25);
+        bid1.updateBid(B1, auction1, 75);
         bid2.updateBid(B2, auction1, 50);
-
-
 
         auction1.displayAllBuyers();
         auction1.winPrice();
 
-        System.out.println(" The winning bid goes to ..."+ auction1.getWinner().getBuyerId()+"   and the amount paid is   "+auction1.getWinningAmount());
+        System.out.println(" The winning bid goes to ..." + auction1.getWinner().getBuyerId() + "   and the amount paid is   " + auction1.getWinningAmount());
 
         auction1.profit();
 
